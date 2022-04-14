@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_publicaciones"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/publicaciones" />
+        <item
+            android:id="@+id/nav_mis_eventos"
+            android:icon="@drawable/ic_baseline_insert_chart_24"
+            android:title="@string/mis_eventos" />
+        <item
+            android:id="@+id/nav_inscripciones"
+            android:icon="@drawable/ic_baseline_addchart_24"
+            android:title="@string/inscripcion" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/ic_baseline_notifications_active_24"
+            android:title="@string/notificaciones" />
+        <item
+            android:id="@+id/nav_mi_cuenta"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/mi_cuenta" />
+    </group>
+</menu>

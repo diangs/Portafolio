@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_publicaciones">
+
+    <fragment
+        android:id="@+id/nav_notificaciones"
+        android:name="com.example.eventbook.ui.notificacion.nav_notificaciones"
+        android:label="@string/notificaciones"
+        tools:layout="@layout/fragment_nav_notificaciones" />
+    <fragment
+        android:id="@+id/nav_mi_cuenta"
+        android:name="com.example.eventbook.ui.cuenta.nav_mi_cuenta"
+        android:label="@string/mi_cuenta"
+        tools:layout="@layout/fragment_mi_cuenta" />
+    <fragment
+        android:id="@+id/nav_publicaciones"
+        android:name="com.example.eventbook.ui.pricipal.nav_publicaciones"
+        android:label="@string/publicaciones"
+        tools:layout="@layout/fragment_nav_publicaciones" />
+    <fragment
+        android:id="@+id/nav_mis_eventos"
+        android:name="com.example.eventbook.ui.eventos.nav_mis_eventos"
+        android:label="@string/mis_eventos"
+        tools:layout="@layout/fragment_nav_mis_eventos" />
+    <fragment
+        android:id="@+id/nav_inscripciones"
+        android:name="com.example.eventbook.ui.inscripciones.nav_inscripciones"
+        android:label="@string/inscripcion"
+        tools:layout="@layout/fragment_nav_inscripciones" />
+</navigation>

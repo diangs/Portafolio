@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">EventBook</string>
+    <string name="saludo">Hola, un placer verte de nuevo.</string>
+    <string name="correo">Correo</string>
+    <string name="contra">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="olvidar">¿Olvidaste tu contraseña?</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="registro">Registro</string>
+    <string name="ejemplo">ejemplo@ejemplo.com</string>
+    <string name="nombre">Nombre</string>
+    <string name="puntitos">*******************</string>
+    <string name="confimarContra">Confirme la contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="publicaciones">Publicaciones</string>
+    <string name="mis_eventos">Mis eventos</string>
+    <string name="inscripcion">Inscripciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="tienes_cuenta_pregunta">¿Tienes cuenta?</string>
+    <string name="ingresa_aqui">Ingresa aqui</string>
+    <string name="registrar_aqui">Registrate aqui</string>
+    <string name="recuperar_contra">Recuperar Contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="mensajeRecuperar">Se le enviará un correo electronico con instrucciones para recuperar su contraseña</string>
+    <string name="incribirme">Inscribirme</string>
+    <string name="verMas">Ver más</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="regresar">Regresar</string>
+    <string name="fecha">Fecha:</string>
+    <string name="lugar">Lugar:</string>
+    <string name="tipo_evento">Tipo de evento:</string>
+    <string name="nuevo_evento">Nuevo Evento</string>
+    <string name="saludo_crear_evento">En este apartado puedes crear un evento y publicarlo posteriormente.</string>
+    <string name="nombre_evento">Nombre del evento</string>
+    <string name="mi_primer_evento">Mi primer evento</string>
+    <string name="descripcion_evento">Describe el evento que estás creando.</string>
+    <string name="evento_descripcion">Descripción del evento</string>
+    <string name="counter">0 / 1000</string>
+    <string name="lugar_evento">Lugar del evento</string>
+    <string name="selecciona_imagen">Seleccionar imagenes...</string>
+    <string name="fecha_crear">Fecha</string>
+    <string name="hora_crear">Hora</string>
+    <string name="fecha_seleccion">Selecciones una fecha</string>
+    <string name="hora_seleccion">Seleccione una hora</string>
+    <string name="crear_evento">Crear Evento</string>
+    <string name="crear_evento_eventbook">Crear Evento</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="descartar">Descartar</string>
+    <string name="editar_evento_eventbook">Editar Evento</string>
+    <string name="filtro">Filtro:</string>
+    <string name="selecciona_tipo">Selecciona el tipo</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="channel_name">NOTIFICACION</string>
+    <string name="channel_description">ESTO ES UNA NOTIFICACION</string>
+    <string name="selecciona_estado">Selecciona el estado</string>
+    <string name="cambiar_contrasela">Cambiar Contraseña</string>
+    <string name="cambiar_contraseña">Nueva Contaseña</string>
+
+    <string-array name="estados">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Distrito Federal</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracrúz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+    <string-array name="tipos_evento">
+        <item>Social</item>
+        <item>Deportivo</item>
+        <item>Comunitario</item>
+        <item>Benefico</item>
+        <item>Taller</item>
+    </string-array>
+    <string-array name="tipos_evento_filtro">
+        <item>Selecciona una opción</item>
+        <item>Social</item>
+        <item>Deportivo</item>
+        <item>Comunitario</item>
+        <item>Benefico</item>
+        <item>Taller</item>
+    </string-array>
+    <string-array name="estados_filtro">
+        <item>Selecciona una opción</item>
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Distrito Federal</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracrúz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+</resources>
